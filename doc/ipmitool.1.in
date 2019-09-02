@@ -3526,12 +3526,13 @@ Displays a list of user information for all defined userids.
 
 Sets the username associated with the given userid.
 .TP 
-\fIpassword\fP <\fBuserid\fR> [<\fBpassword\fR>]
+\fIpassword\fP <\fBuserid\fR> [<\fBpassword\fR> [<\fB16|20\fR>]]
 .br 
 
 Sets the password for the given userid.  If no password is given,
 the password is cleared (set to the NULL password).  Be careful when
-removing passwords from administrator\-level accounts.
+removing passwords from administrator\-level accounts.  If specified,
+16 or 20 determines the maximum password length.
 .RE
 .TP 
 \fIdisable\fP <\fBuserid\fR>
